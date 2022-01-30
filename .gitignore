@@ -123,4 +123,10 @@ dmypy.json
 local.ini
 reports/
 
-.idea
+.idea/vcs.xml
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/py-ea-ocr.iml
