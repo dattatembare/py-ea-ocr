@@ -31,7 +31,7 @@ C:\Program Files\Tesseract-OCR> tesseract C:\EA\OCR\2021\003.png C:\EA\OCR\2021\
 
 These installations are mandatory:  **Windows** 
 1. Install [VC++ 2015](https://www.microsoft.com/en-au/download/details.aspx?id=53840) - It is require to run Tesseract (Not sure if it required for V5.0.0 alpa, it was required for version 4.1)
-2. Install [Tesseract](https://digi.bib.uni-mannheim.de/tesseract/) - Read text from Images - I used [tesseract-ocr-w64-setup-v4.0.0.20181030.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.1.20220118.exe) **Choose Additional language data; select all Indian languages** (Expand the option, deselect all and select the languages you want) 
+2. Install [Tesseract](https://digi.bib.uni-mannheim.de/tesseract/) - Read text from Images - I used [tesseract-ocr-w64-setup](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.1.20220118.exe) **Choose Additional language data; select all Indian languages** (Expand the option, deselect all and select the languages you want) 
 Install path (Note down an installed path, it is required to add in code)
 C:\Program Files\Tesseract-OCR
 3. Install [GhostScript](https://ghostscript.com/download/gsdnld.html) - PDF to images converter - I used gs923w64.exe
