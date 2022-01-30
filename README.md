@@ -26,6 +26,6 @@ INI style configs (using ConfigParser). ConfigParser helps to read and write .in
 Executes all unit tests (when module name start with `test_`) and generates text or html report.
 To generate html report need to use `-r html` when running from commandline.
 
-Command: `python -m test.unit_test_launcher -r html`
+Command: `py-ea-ocr> python -m runner -i C:\EA\OCR\2022\TEST -o C:\EA\OCR\2022\TESTOUT`
 
  

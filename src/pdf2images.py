@@ -4,7 +4,7 @@ import ghostscript
 
 
 def pdf2png(input_pdf_file, output_file_path):
-    print(input_pdf_file, output_file_path)
+    print(f"1. Convert PDF to images, input={input_pdf_file}, output={output_file_path}")
     args_list = ["-q",
                  "-dQUIET", "-dSAFER", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT", "-dMaxBitmap=900000000",
                  "-dAlignToPixels=0", "-dGridFitTT=2", "-sDEVICE=pnggray", "-r1200", "-dDownScaleFactor=4",
