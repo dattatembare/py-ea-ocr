@@ -41,7 +41,7 @@ C:\Program Files\Tesseract-OCR
    1. After pulling the repository, 
       1. Open commandline with project path 
       2. Verify python version `C:\py-ea-ocr> python --version`
-      3. Create virtual env `C:\py-ea-ocr>python -m venv myPyEnv` 
+      3. Create virtual env --> Install module `pip install virtualenv` and create venv `C:\py-ea-ocr>python -m venv myPyEnv` 
          1. and activate venv `C:\py-ea-ocr\myPyEnv\Scripts>activate` 
          2. After running above command cmd should look like `(myPyEnv) <project path>\test-py\py-ea-ocr\myPyEnv\Scripts>`
       4. env run `C:\py-ea-ocr> pip install -r requirements.txt`
