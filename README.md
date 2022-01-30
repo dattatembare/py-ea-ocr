@@ -50,18 +50,20 @@ C:\Program Files\Tesseract-OCR
       C:\py-ea-ocr>pip list
        Package         Version
        --------------- -------
+       beautifulsoup4  4.10.0
+       bs4             0.0.1
        ghostscript     0.7
        html-testRunner 1.2
        Jinja2          2.9.5
+       lxml            4.7.1
        MarkupSafe      2.0.1
        Pillow          9.0.0
-       pip             20.2.3
+       pip             21.2.4
        pytesseract     0.3.8
-       setuptools      49.2.1
-       testfixtures    6.9.0
+       setuptools      58.1.0
          ```
 
 ## Run command
-Command: `C:\py-ea-ocr> python -m runner -i C:\EA\OCR\2022\TEST -o C:\EA\OCR\2022\TESTOUT`
+Command: `C:\py-ea-ocr> python -m runner -i C:\EA\OCR\2022\TEST -o C:\EA\OCR\2022\OUT`
 
  
